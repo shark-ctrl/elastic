@@ -1,4 +1,4 @@
-module github.com/shark-ctrl/elastic/elastic/v7
+module github.com/shark-ctrl/elastic/v7
 
 
 go 1.17
