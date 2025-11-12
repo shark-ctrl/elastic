@@ -15,8 +15,8 @@ type RangeQuery struct {
 	lte      interface{}
 	gte      interface{}
 	timeZone string
-	//includeLower bool
-	//includeUpper bool
+	//includeLower bool 兼容es9
+	//includeUpper bool //兼容es9去掉
 	boost     *float64
 	queryName string
 	format    string
